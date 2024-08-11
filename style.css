@@ -1,0 +1,69 @@
+@font-face {
+	font-family: "Hand";
+	src: url("fonts/DK Hand.ttf");
+}
+
+body{
+	background-color: #0067cf;
+}
+
+#wrap {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+main {
+	overflow: hidden;
+}
+
+
+nav {
+	background-color: #51cff5;
+	background-repeat: repeat-x;
+	width: 200px;
+	float: right;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+	
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	font-family: Hand;
+	font-size: 16pt;
+	color: #58595B;
+} 
+
+button {
+	width: 150px;
+	background-color: #ffe6e6;
+	padding: 15px 30px;
+	margin-top: 15px;
+	text-align: center;
+	
+}
+
+#content { 
+	background-color: #ffffff;
+	font-family: Hand;
+	width: 560px;
+	padding: 20px;
+	float: left;
+	padding-bottom: 500em;
+	margin-bottom: -500em;
+	text-align: center;
+
+}
+
+footer {
+	background-color: #c63939;
+	height: 60px;
+	padding-left: 20px;
+	padding-top:35px;
+	clear: both;
+	font-family: "Hand";
+}
